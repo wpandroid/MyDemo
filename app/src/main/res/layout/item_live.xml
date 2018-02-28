@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/live_ln"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:paddingLeft="9dp">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardElevation="0dp"
+        app:cardCornerRadius="3dp"
+        >
+        <ImageView
+            android:id="@+id/live_iv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            />
+        <TextView
+            android:id="@+id/livetitle_tv"
+            android:layout_width="match_parent"
+            android:layout_height="33dp"
+            android:textColor="@color/white"
+            android:text="title"
+            android:gravity="center_vertical"
+            android:background="@drawable/bg_player_bottom"
+            android:textSize="12sp"
+            android:singleLine="true"
+            android:layout_alignParentBottom="true"
+            android:paddingLeft="5dp"
+            android:layout_gravity="bottom"
+            />
+    </android.support.v7.widget.CardView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        >
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:id="@+id/userimage_iv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/lib_icon_default_user_head"
+            app:riv_oval="true" />
+        <TextView
+            android:id="@+id/username_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:text="name"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            />
+
+        <TextView
+            android:id="@+id/usernums_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="nums"
+            android:layout_alignParentRight="true"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

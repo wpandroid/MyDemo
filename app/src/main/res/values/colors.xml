@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="backgr">#0D3F51B5</color>
+
+    #0D3F51B5
+
+    <color name="colorasn">#E60006</color>
+    <color name="primary_darker">#CC1D1D</color>
+    <color name="primary">#E43F3F</color>
+    <color name="red" >#FF0000</color>
+    <color name="text_red">#ec0f38</color>
+    <color name="white" >#FFFFFF</color>
+    <color name="black" >#282828</color>
+    <color name="jet">#222222</color>
+    <color name="oil">#333333</color>
+    <color name="monsoon">#777777</color>
+    <color name="jumbo">#888888</color>
+    <color name="aluminum">#999999</color>
+    <color name="base">#AAAAAA</color>
+    <color name="iron">#DDE8EE</color>
+    <color name="global_bg">#eeeff3</color>
+    <color name="light_blue">#6593cb</color>
+    <color name="shen_blue">#0A0F75</color>
+    <color name="gray">#aaaaaa</color>
+    <color name="title">#363636</color>
+    <color name="tbtitle">#FF0000</color>
+    <color name="toolbar_bg">#FAFBFD</color>
+
+    <color name="shopAccent">#32FFC0</color>
+
+    <color name="galleryItemOverlay">#cc000000</color>
+    <color name="galleryCurrentItemOverlay">@android:color/transparent</color>
+
+    <color name="rankback">#343C43</color>
+
+    <color name="line">#80FFFFFF</color>
+
+</resources>
